@@ -1,5 +1,6 @@
 # duckduckgo-api
 
+
 ## Use vercel
 [https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3](https://duckduckgo-api.vercel.app/search?q=啊对对对是什么梗&max_results=3)
 
