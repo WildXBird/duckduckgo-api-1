@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, make_response
 from duckduckgo_search import ddg
 app = Flask(__name__)
 
