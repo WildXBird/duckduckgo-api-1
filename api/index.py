@@ -10,7 +10,10 @@ def search():  # put application's code here
     max_results = int(request.args.get('max_results') or "3")
     results = ddg(keywords, region='wt-wt', max_results=max_results)
     print(results)
-    return results
+    response = make_response(results)
+    response.headers[‘Access-Control-Allow-Origin’] = ‘*’
+    return response
+   # return results
 
 
 if __name__ == '__main__':
