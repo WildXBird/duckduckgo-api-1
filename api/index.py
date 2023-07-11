@@ -11,7 +11,7 @@ def search():  # put application's code here
     results = ddg(keywords, region='wt-wt', max_results=max_results)
     print(results)
     response = make_response(results)
-    response.headers[‘Access-Control-Allow-Origin’] = ‘*’
+    response.headers['Access-Control-Allow-Origin'] = '*'
     return response
    # return results
 
